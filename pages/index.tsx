@@ -39,7 +39,11 @@ const Consulting = () => {
             </Head>
             <section className="hotel-resort-banner relative">
                 <div className="lg:h-[828px]">
-                    <img src="/assets/images/Home-Page 3-01.jpg" className="h-auto w-full object-cover lg:h-full" alt="Data Protection Authority - Somalia" />
+                    <img
+                        src="/assets/images/landing page/HOME-PAGE-01.jpg"
+                        className="h-auto w-full object-cover lg:h-full"
+                        alt="Data Protection Authority - Somalia"
+                    />
                 </div>
                 <div
                     className="absolute inset-0 z-[1] opacity-70"
