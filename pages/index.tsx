@@ -39,11 +39,7 @@ const Consulting = () => {
             </Head>
             <section className="hotel-resort-banner relative">
                 <div className="lg:h-[828px]">
-                    <img
-                        src="/assets/images/landing page/HOME-PAGE-01.jpg"
-                        className="h-auto w-full object-cover lg:h-full"
-                        alt="Data Protection Authority - Somalia"
-                    />
+                    <img src="/assets/images/Home-Page 3-01.jpg" className="h-auto w-full object-cover lg:h-full" alt="Data Protection Authority - Somalia" />
                 </div>
                 <div
                     className="absolute inset-0 z-[1] opacity-70"
@@ -70,7 +66,7 @@ const Consulting = () => {
                     <div className="container"></div>
                 </div>
             </section>
-            <section className="py-12 dark:bg-black lg:py-24">
+            <section className="py-12 dark:bg-black lg:py-40">
                 <div className="container">
                     <div className="flex flex-col items-center gap-5 lg:flex-row" data-aos="fade-up" data-aos-duration="1000">
                         <div className="flex-none lg:max-w-[130px]">
@@ -81,10 +77,10 @@ const Consulting = () => {
                                 <h3 className="text-3xl font-black uppercase text-black dark:text-white sm:text-[40px] sm:leading-[60px]">
                                     Data Protection Authority - <span className="text-secondary"> Somalia </span>
                                 </h3>
-                                <p className="text-left text-lg font-bold text-[#191919] rtl:text-right md:text-left">
+                                <p className="text-justify text-lg font-bold text-[#191919] ">
                                     (DPA) is the national independent authority responsible for protecting personal privacy and monitoring that all
-                                    organizations are compliant with the Data Protection Act (no.005 which was passed in March 2023). <br /> The role of DPA is
-                                    to implement the Data Protection Act, as well as providing services that facilitate protection of personal data, such as;
+                                    organizations are compliant with the Data Protection Act (no.005 which was passed in March 2023). The role of DPA is to
+                                    implement the Data Protection Act, as well as providing services that facilitate protection of personal data, such as;
                                     awareness campaigns, registration, trainings, creating and passing regulations specific to storing and processing data.
                                 </p>
                             </div>

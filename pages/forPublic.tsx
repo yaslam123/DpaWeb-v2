@@ -145,7 +145,7 @@ const forPublic = () => {
                                 <div>
                                     <ul className="text-md pb-7 font-bold">
                                         <li className="mb-10 flex items-center justify-between border-b-2 border-dotted border-gray/10 bg-transparent transition hover:scale-105">
-                                            <a href="#" className="group flex w-full">
+                                            <a href="/yourData" className="group flex w-full">
                                                 <div className="flex w-full flex-row items-start">
                                                     <div className="flex h-10 w-10 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:bg-secondary group-hover:ease-in-out">
                                                         <FaArrowRight style={{ color: 'white', fontSize: '16px' }} />
