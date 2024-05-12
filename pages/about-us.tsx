@@ -863,12 +863,12 @@ const Aboutus = () => {
                 closeBtnClass="!top-0 ltr:!right-0 rtl:!right-auto rtl:!left-0 !text-white !text-3xl"
                 modal={false}
             >
-                <div className="bg-transparent !p-4 dark:bg-gray-dark">
+                <div className="bg-black dark:bg-gray-dark">
                     <div className="relative">
                         <div className="aspect-video">
                             <iframe
                                 className="absolute top-0 left-0 h-full w-full"
-                                src="https://www.youtube.com/embed/H1lmjBdP_5M?si=CsSRcTFYaondr0Uy"
+                                src="https://www.youtube.com/embed/Zqwynk2okxQ?si=Mq9z7cSRtInzmXMg"
                                 frameBorder="0"
                                 allowFullScreen
                                 allow="autoplay"
