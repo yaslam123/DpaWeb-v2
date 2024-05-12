@@ -30,7 +30,7 @@ const Header = (props: any) => {
     };
 
     return (
-        <header className={`sticky top-0 z-50 bg-black duration-300 ${props.className} `}>
+        <header className={`top-0 z-50 bg-black/10 duration-300 ${props.className} `}>
             <div className="!bg-green-500 container">
                 <div className="flex items-center justify-between py-5 lg:py-0">
                     <Link href="/">
@@ -137,11 +137,35 @@ const Header = (props: any) => {
                                         About Us
                                     </Link>
                                 </li>
-                                <li className="relative hidden items-center before:absolute before:top-1/2 before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-gray/30 ltr:pl-9 ltr:before:-left-[5px] rtl:pr-9 rtl:before:-right-[2px] lg:inline-flex">
-                                    <Link href="/" className={router.pathname === '/' ? '' : ''}>
-                                        Somali
+
+                                <li className="relative items-center before:absolute before:top-1/2 before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-gray/30 ltr:before:-left-[5px] rtl:pr-9 rtl:before:-right-[2px] lg:inline-flex"></li>
+
+                                <li className="group relative" onClick={(e) => e.stopPropagation()}>
+                                    <Link href="#" className={router.pathname === '/' || router.pathname === '/' ? '' : ''}>
+                                        Languages
+                                        <div className="transition duration-500 group-hover:rotate-180 rtl:mr-2">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M19 9L12 15L10.25 13.5M5 9L7.33333 11"
+                                                    stroke="currentColor"
+                                                    strokeWidth="1.5"
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                />
+                                            </svg>
+                                        </div>
                                     </Link>
+                                    <div className="submenu" onClick={() => toggleMenu()}>
+                                        <Link href="#" className={router.pathname === '#' ? '' : ''}>
+                                            Somali
+                                        </Link>
+                                        <Link href="#" className={router.pathname === '#' ? '' : ''}>
+                                            {' '}
+                                            English &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{' '}
+                                        </Link>
+                                    </div>
                                 </li>
+
                                 <li
                                     className={`${showSearch ? '!w-full' : ''}
                   search-bar absolute hidden w-0 overflow-hidden bg-black transition-all duration-500 ltr:right-0 rtl:left-0 lg:block`}
