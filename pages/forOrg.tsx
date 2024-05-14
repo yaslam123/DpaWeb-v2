@@ -32,9 +32,7 @@ const forOrg = () => {
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
                                         </div>
                                         <div className="flex w-[80%] flex-col">
-                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">
-                                                UK General Data Protection Regulation (GDPR)
-                                            </h2>
+                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Data Protection Basics</h2>
                                             <p className="text-black">
                                                 Principles and requirements of the UK GDPR, codes of practice and key themes such as CCTV, artificial
                                                 intelligence, and children.
@@ -52,7 +50,7 @@ const forOrg = () => {
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
                                         </div>
                                         <div className="flex w-[80%] flex-col">
-                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Freedom of information</h2>
+                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Know Your Obligations</h2>
                                             <p className="text-black">How to respond to FOI requests, and further information and resources.</p>
                                         </div>
                                     </div>
@@ -65,7 +63,7 @@ const forOrg = () => {
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
                                         </div>
                                         <div className="flex w-[80%] flex-col">
-                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">EIR and access to information</h2>
+                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Codes of Conduct</h2>
                                             <p className="text-black">Environmental information, spatial information and re-use of information.</p>
                                         </div>
                                     </div>
@@ -78,9 +76,7 @@ const forOrg = () => {
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
                                         </div>
                                         <div className="flex w-[80%] flex-col">
-                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">
-                                                Direct marketing and privacy and electronic communications
-                                            </h2>
+                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">GDPR Certification</h2>
                                             <p className="text-black">
                                                 Sending marketing messages, business to business marketing, electronic messaging, cookies, or providing
                                                 electronic communications services to the public.
@@ -96,7 +92,7 @@ const forOrg = () => {
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
                                         </div>
                                         <div className="flex w-[80%] flex-col">
-                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Law Enforcement</h2>
+                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Resources for Organisations</h2>
                                             <p className="text-black">Processing for law enforcement purposes.</p>
                                         </div>
                                     </div>
@@ -109,7 +105,9 @@ const forOrg = () => {
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
                                         </div>
                                         <div className="flex w-[80%] flex-col">
-                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Data Protection and the EU</h2>
+                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">
+                                                Rules for Electronic and Direct Marketing
+                                            </h2>
                                             <p className="text-black">Adequacy and the UK GDPR and law enforcement processing since we left the EU.</p>
                                         </div>
                                     </div>
@@ -122,9 +120,7 @@ const forOrg = () => {
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
                                         </div>
                                         <div className="flex w-[80%] flex-col">
-                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">
-                                                Electronic identification and trust services
-                                            </h2>
+                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">International Transfers</h2>
                                             <p className="text-black">
                                                 eIDAS regulations for electronic trust services offered within the UK and recognised equivalent services offered
                                                 in the EU.
@@ -140,9 +136,7 @@ const forOrg = () => {
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
                                         </div>
                                         <div className="flex w-[80%] flex-col ">
-                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">
-                                                Network and information systems (NIS)
-                                            </h2>
+                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Infographics</h2>
                                             <p className="text-black">
                                                 Digital services such as online marketplaces, online search engines and cloud services.
                                             </p>
@@ -150,7 +144,7 @@ const forOrg = () => {
                                     </div>
                                 </a>
                             </div>
-                            <div className=" flex flex-row p-5">
+                            {/* <div className=" flex flex-row p-5">
                                 <a href="#" className="group flex w-full border-b-2 border-dotted border-gray/30">
                                     <div className="flex w-full flex-row items-start justify-between">
                                         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
@@ -162,7 +156,7 @@ const forOrg = () => {
                                         </div>
                                     </div>
                                 </a>
-                            </div>
+                            </div> */}
                         </div>
 
                         {/* Second Child Div with a Single Column and 30% width */}
