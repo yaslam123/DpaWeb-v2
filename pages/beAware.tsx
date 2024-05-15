@@ -6,23 +6,23 @@ import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 import Head from 'next/head';
 
-const yourData = () => {
+const beAware = () => {
     const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
 
     return (
         <div>
             <Head>
-                <title>Articales | Data Protection Athourity</title>
+                <title>Data Protection Athourity</title>
             </Head>
             <section className="overflow-hidden bg-black pt-[82px] lg:pt-[106px]">
                 <section className="bg-white py-[4rem] md:py-[4rem] lg:py-[4rem]">
                     <div className="container">
                         <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
-                            <h4>Your Data and Elections</h4>
+                            <h4>Be Aware</h4>
                             <p className="pt-12 text-lg font-semibold">
-                                Personal information is an important part of political campaigning. It allows political parties to get crucial messages to
-                                voters and helps them to understand the key issues for different people. Our guidance will help you to understand what to expect
-                                and what to do if you’re unhappy with how campaigners use your information.
+                                It is more crucial than ever to understand who is using and why your personal data in this data-driven society. You have a right
+                                to know how organisations use your data, even if it's done in the background. This includes being aware of how users use your
+                                information to target you with marketing on social media.
                             </p>
                         </div>
 
@@ -99,4 +99,4 @@ const yourData = () => {
         </div>
     );
 };
-export default yourData;
+export default beAware;

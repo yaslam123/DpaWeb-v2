@@ -6,23 +6,26 @@ import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 import Head from 'next/head';
 
-const yourData = () => {
+const Journalize = () => {
     const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
 
     return (
         <div>
             <Head>
-                <title>Articales | Data Protection Athourity</title>
+                <title>Data Protection Athourity</title>
             </Head>
             <section className="overflow-hidden bg-black pt-[82px] lg:pt-[106px]">
                 <section className="bg-white py-[4rem] md:py-[4rem] lg:py-[4rem]">
                     <div className="container">
                         <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
-                            <h4>Your Data and Elections</h4>
+                            <h4>Data protection and Journalism</h4>
                             <p className="pt-12 text-lg font-semibold">
-                                Personal information is an important part of political campaigning. It allows political parties to get crucial messages to
-                                voters and helps them to understand the key issues for different people. Our guidance will help you to understand what to expect
-                                and what to do if you’re unhappy with how campaigners use your information.
+                                Under Somalia's Data Protection Act (DPA), there's a crucial balance between the democratic necessity of a free press and the
+                                individual's right to privacy. The DPA acknowledges the media's role in serving the public interest, allowing for the processing
+                                of personal data in journalistic content. However, media organisations must still adhere to data protection laws, ensuring
+                                responsible data handling by minimising and accurately managing personal information. This delicate equilibrium ensures that
+                                while fredom of expression flourishes, privacy rights are also robustly protected, lmaintaining the integrity of both democratic
+                                values and individual freedoms.
                             </p>
                         </div>
 
@@ -99,4 +102,4 @@ const yourData = () => {
         </div>
     );
 };
-export default yourData;
+export default Journalize;

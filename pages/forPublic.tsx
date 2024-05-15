@@ -42,10 +42,10 @@ const forPublic = () => {
                                             <PiIdentificationBadgeThin style={{ color: 'black', fontSize: '60px', padding: '0' }} />
                                         </div>
                                         <div className="pl-5 text-black">
-                                            <h1 className="mb-2 text-[1.2rem] font-bold">Getting copies of your information (SAR)</h1>
+                                            <h1 className="mb-2 text-[1.2rem] font-bold"> Right of Access</h1>
                                             <p className="text-[.85rem] leading-[1.3rem]">
-                                                Make a subject access request (SAR) to find out if an organisation is using or storing your personal data and
-                                                get copies of it.
+                                                Individuals have the right to know whether their personal data is being processed, where, and for what purpose.
+                                                They can request a copy of their personal data.
                                             </p>
                                         </div>
                                     </a>
@@ -56,9 +56,9 @@ const forPublic = () => {
                                             <IoIosPersonAdd style={{ color: 'black', fontSize: '60px' }} />
                                         </div>
                                         <div className="pl-5 text-black">
-                                            <h1 className="mb-2 text-[1.2rem] font-bold">Make a subject access request</h1>
+                                            <h1 className="mb-2 text-[1.2rem] font-bold">Right to Rectification</h1>
                                             <p className="text-[.85rem] leading-[1.3rem]">
-                                                Use this service to ask an organisation for your personal information.
+                                                Individuals can have inaccurate personal data corrected and incomplete data completed.
                                             </p>
                                         </div>
                                     </a>
@@ -69,9 +69,9 @@ const forPublic = () => {
                                             <MdOutlineDoneAll style={{ color: 'black', fontSize: '60px', padding: '0' }} />
                                         </div>
                                         <div className="pl-5 text-black">
-                                            <h1 className="mb-2 text-[1.2rem] font-bold">Make a data protection complaint</h1>
+                                            <h1 className="mb-2 text-[1.2rem] font-bold">Right to Erasure (Right to be Forgotten)</h1>
                                             <p className="text-[.85rem] leading-[1.3rem]">
-                                                Tell an organisation if you're concerned about how they are using your data.
+                                                Under certain conditions, individuals can request the deletion of their personal data.
                                             </p>
                                         </div>
                                     </a>
@@ -82,8 +82,10 @@ const forPublic = () => {
                                             <MdOutlineMedicalInformation style={{ color: 'black', fontSize: '60px', padding: '0' }} />
                                         </div>
                                         <div className="pl-5 text-black">
-                                            <h1 className="mb-2 text-[1.2rem] font-bold">Access information from a public body</h1>
-                                            <p className="pb-5 text-[.85rem] leading-[1.3rem]">Make a request for information from a public body.</p>
+                                            <h1 className="mb-2 text-[1.2rem] font-bold">Right to Restrict Processing</h1>
+                                            <p className="pb-5 text-[.85rem] leading-[1.3rem]">
+                                                Individuals have the right to block or suppress processing of their personal data under certain conditions.
+                                            </p>
                                         </div>
                                     </a>
                                 </div>
@@ -93,9 +95,9 @@ const forPublic = () => {
                                             <MdOutlinePrivacyTip style={{ color: 'black', fontSize: '60px', padding: '0' }} />
                                         </div>
                                         <div className="pl-5 text-black">
-                                            <h1 className="mb-2 text-[1.2rem] font-bold">Get your data corrected</h1>
+                                            <h1 className="mb-2 text-[1.2rem] font-bold">Right to Data Portabilityd</h1>
                                             <p className="pb-5 text-[.85rem] leading-[1.3rem]">
-                                                You can challenge the accuracy of personal data held about you by an organisation.
+                                                Individuals can request and receive their personal data for their own purposes across different services.
                                             </p>
                                         </div>
                                     </a>
@@ -106,9 +108,10 @@ const forPublic = () => {
                                             <AiOutlineUsergroupDelete style={{ color: 'black', fontSize: '60px', padding: '0' }} />
                                         </div>
                                         <div className="pl-5 text-black">
-                                            <h1 className="mb-2 text-[1.2rem] font-bold">Get your data deleted</h1>
+                                            <h1 className="mb-2 text-[1.2rem] font-bold">Right to Object</h1>
                                             <p className="pb-5 text-[.85rem] leading-[1.3rem]">
-                                                You can ask an organisation to delete personal data that it holds about you.
+                                                Individuals have the right to object to the processing of their personal data for direct marketing, research, or
+                                                in a few other contexts.
                                             </p>
                                         </div>
                                     </a>
@@ -119,22 +122,11 @@ const forPublic = () => {
                                             <SlOrganization style={{ color: 'black', fontSize: '60px', padding: '0' }} />
                                         </div>
                                         <div className="pl-5 text-black">
-                                            <h1 className="mb-2 text-[1.2rem] font-bold">Object to an organisation using your data</h1>
+                                            <h1 className="mb-2 text-[1.2rem] font-bold">Rights in Relation to Automated Decision Making and Profiling</h1>
                                             <p className="pb-5 text-[.85rem] leading-[1.3rem]">
-                                                You have the right to object to the processing or use of your personal data in some circumstances.
-                                            </p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div className="mt-5 flex flex-row">
-                                    <a href="" className="flex pr-5">
-                                        <div className="h-full">
-                                            <MdPermDeviceInformation style={{ color: 'black', fontSize: '60px', padding: '0' }} />
-                                        </div>
-                                        <div className="pl-5 text-black">
-                                            <h1 className="mb-2 text-[1.2rem] font-bold">Being informed if your personal data is being used</h1>
-                                            <p className="pb-5 text-[.85rem] leading-[1.3rem]">
-                                                An organisation must inform you if it is using your personal data.
+                                                Individuals have the right not to be subject to a decision based solely on automated processing, including
+                                                profiling, that produces legal effects concerning them or similarly significantly affects them. The Somalia data
+                                                protection act granted this right.
                                             </p>
                                         </div>
                                     </a>
@@ -162,21 +154,19 @@ const forPublic = () => {
                                                 </a>
                                             </li>
                                             <li className="my-10 flex border-b-2 border-dotted border-gray/10 bg-transparent transition hover:scale-105">
-                                                <a href="#" className="group flex w-full">
+                                                <a href="/beAware" className="group flex w-full">
                                                     <div className="flex w-full flex-row items-start">
                                                         <div className="flex h-10 w-10 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:bg-secondary group-hover:ease-in-out">
                                                             <FaArrowRight style={{ color: 'white', fontSize: '16px' }} />
                                                         </div>
                                                         <div className="flex w-[85%] flex-col pl-3">
-                                                            <h3 className="text-[20px] font-bold text-black group-hover:text-primary">
-                                                                The Children’s Code: what is it?
-                                                            </h3>
+                                                            <h3 className="text-[20px] font-bold text-black group-hover:text-primary">Be Aware</h3>
                                                         </div>
                                                     </div>
                                                 </a>
                                             </li>
                                             <li className="mt-10 mb-10 flex items-center justify-between border-b-2 border-dotted border-gray/10 bg-transparent transition hover:scale-105">
-                                                <a href="#" className="group flex w-full">
+                                                <a href="/Consent" className="group flex w-full">
                                                     <div className="flex w-full flex-row items-start">
                                                         <div className="flex h-10 w-10 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:bg-secondary group-hover:ease-in-out">
                                                             <FaArrowRight style={{ color: 'white', fontSize: '16px' }} />
@@ -188,7 +178,7 @@ const forPublic = () => {
                                                 </a>
                                             </li>
                                             <li className="bg-transparente mt-10 mb-10 flex items-center justify-between border-b-2 border-dotted border-gray/10 transition hover:scale-105">
-                                                <a href="#" className="group flex w-full">
+                                                <a href="/Journalize" className="group flex w-full">
                                                     <div className="flex w-full flex-row items-start">
                                                         <div className="flex h-10 w-10 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:bg-secondary group-hover:ease-in-out">
                                                             <FaArrowRight style={{ color: 'white', fontSize: '16px' }} />
@@ -202,7 +192,7 @@ const forPublic = () => {
                                                 </a>
                                             </li>
                                             <li className="mt-10 mb-10 flex items-center justify-between border-b-2 border-dotted border-gray/10 bg-transparent transition hover:scale-105">
-                                                <a href="#" className="group flex w-full">
+                                                <a href="/IdentityTheft" className="group flex w-full">
                                                     <div className="flex w-full flex-row items-start">
                                                         <div className="flex h-10 w-10 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:bg-secondary group-hover:ease-in-out">
                                                             <FaArrowRight style={{ color: 'white', fontSize: '16px' }} />

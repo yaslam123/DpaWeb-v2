@@ -6,23 +6,24 @@ import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 import Head from 'next/head';
 
-const yourData = () => {
+const IdentityTheft = () => {
     const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
 
     return (
         <div>
             <Head>
-                <title>Articales | Data Protection Athourity</title>
+                <title>Data Protection Athourity</title>
             </Head>
             <section className="overflow-hidden bg-black pt-[82px] lg:pt-[106px]">
                 <section className="bg-white py-[4rem] md:py-[4rem] lg:py-[4rem]">
                     <div className="container">
                         <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
-                            <h4>Your Data and Elections</h4>
+                            <h4>Identity theft</h4>
                             <p className="pt-12 text-lg font-semibold">
-                                Personal information is an important part of political campaigning. It allows political parties to get crucial messages to
-                                voters and helps them to understand the key issues for different people. Our guidance will help you to understand what to expect
-                                and what to do if you’re unhappy with how campaigners use your information.
+                                Somalia's Data Protection Act serves as a critical defense against identity theft, mandating stringent data security measures
+                                for personal information handling. The Act emphasises the need for individuals and organisations to adopt robust practices, such
+                                as secure data management and awareness of phishing threats, to protect against unauthorised access and misuse. Upholding these
+                                standards is essential for safeguarding personal identities and maintaining digital trust in an increasingly online world.
                             </p>
                         </div>
 
@@ -99,4 +100,4 @@ const yourData = () => {
         </div>
     );
 };
-export default yourData;
+export default IdentityTheft;

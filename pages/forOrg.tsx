@@ -26,7 +26,7 @@ const forOrg = () => {
                         {/* First Child Div with Responsive Grid and 70% width */}
                         <div className="grid w-full grid-cols-1 gap-0 md:w-[70%] md:auto-rows-auto md:grid-cols-2 lg:w-[70%] lg:grid-cols-2">
                             <div className="flex flex-row p-5">
-                                <a href="#" className="group flex h-[110%] w-full border-b-2 border-dotted border-gray/30">
+                                <a href="/DPB" className="group flex h-[110%] w-full border-b-2 border-dotted border-gray/30">
                                     <div className="flex w-full flex-row items-start justify-between">
                                         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
@@ -99,7 +99,7 @@ const forOrg = () => {
                                 </a>
                             </div>
                             <div className=" flex flex-row p-5">
-                                <a href="#" className="group flex h-[110%] w-full border-b-2 border-dotted border-gray/30">
+                                <a href="/RFEM" className="group flex h-[110%] w-full border-b-2 border-dotted border-gray/30">
                                     <div className="flex w-full flex-row items-start justify-between">
                                         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
