@@ -12,6 +12,7 @@ import { AiOutlineUsergroupDelete } from 'react-icons/ai';
 import { SlOrganization } from 'react-icons/sl';
 import { MdPermDeviceInformation } from 'react-icons/md';
 import { FaArrowRight } from 'react-icons/fa';
+import Modal from '../components/Modal';
 
 const forPublic = () => {
     const dialog: any = useRef();
@@ -29,6 +30,60 @@ const forPublic = () => {
                             For The Public
                         </h5>
                     </div>
+                    <section className="relative bg-transparent pb-10">
+                        <img src="/assets/images/event-concert/about-text.png" alt="" className="absolute top-12 left-1/2 -translate-x-1/2 md:top-24" />
+                        <div className="container">
+                            <div className="mt-12 flex flex-col items-center lg:flex-row" data-aos="fade-up" data-aos-duration="1000">
+                                <div className="relative w-full flex-none lg:max-w-[555px]">
+                                    <img src="/assets/images/gallery1.jpg" className="h-full w-full object-cover" alt="" />
+                                    <span className="absolute inset-0 bg-black/30"></span>
+                                    <button
+                                        type="button"
+                                        className="absolute top-1/2 left-1/2 flex h-[60px] w-[60px] -translate-y-1/2 -translate-x-1/2 items-center justify-center bg-white/40"
+                                        onClick={() => dialog.current.open()}
+                                    >
+                                        <svg width="20" height="26" viewBox="0 0 20 26" fill="none">
+                                            <path
+                                                d="M2.40668 1.04988C2.20606 0.916037 1.97291 0.839108 1.73203 0.827287C1.49116 0.815465 1.25159 0.869194 1.03883 0.982755C0.826077 1.09631 0.648107 1.26545 0.523872 1.47216C0.399638 1.67886 0.333789 1.91539 0.333344 2.15655V23.8432C0.333789 24.0844 0.399638 24.3209 0.523872 24.5276C0.648107 24.7343 0.826077 24.9035 1.03883 25.017C1.25159 25.1306 1.49116 25.1843 1.73203 25.1725C1.97291 25.1607 2.20606 25.0837 2.40668 24.9499L18.67 14.1099C18.8529 13.9882 19.0029 13.8232 19.1066 13.6295C19.2104 13.4359 19.2646 13.2196 19.2646 12.9999C19.2646 12.7802 19.2104 12.5639 19.1066 12.3703C19.0029 12.1766 18.8529 12.0116 18.67 11.8899L2.40668 1.04988Z"
+                                                fill="white"
+                                            />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div className="flex-1 bg-white p-5 uppercase italic dark:bg-gray-dark sm:p-[30px]">
+                                    <h4 className="text-2xl font-black leading-10 text-black dark:text-white">Get access to the full conference experience.</h4>
+                                    <p className="mt-2.5 text-sm font-semibold leading-8">
+                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classNameical Latin
+                                        literature fror 45 BC, making it over 2000 years old.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <Modal
+                        ref={dialog}
+                        width="960"
+                        closeByOverlay={true}
+                        closeBtn={true}
+                        closeStyle="floating"
+                        contentClass="pt-8 px-0 pb-0 !bg-transparent"
+                        closeBtnClass="!top-0 ltr:!right-0 rtl:!right-auto rtl:!left-0 !text-white !text-3xl"
+                        modal={false}
+                    >
+                        <div className="bg-black dark:bg-gray-dark">
+                            <div className="relative">
+                                <div className="aspect-video">
+                                    <iframe
+                                        className="absolute top-0 left-0 h-full w-full"
+                                        src="https://www.youtube.com/embed/D0UnqGm_miA"
+                                        frameBorder="0"
+                                        allowFullScreen
+                                        allow="autoplay"
+                                    ></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </Modal>
                     <div className="flex flex-col border-t-2 border-dotted border-gray/10 pb-10 " data-aos="fade-up" data-aos-duration="1000">
                         <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-2">
                             <div className="">

@@ -42,7 +42,6 @@ const forOrg = () => {
                                 </a>
                             </div>
 
-                            {/*  */}
                             <div className="flex flex-row p-5">
                                 <a href="#" className="group flex h-[70%] w-full border-b-2 border-dotted border-gray/30 ">
                                     <div className="flex w-full flex-row items-start justify-between ">
@@ -57,7 +56,22 @@ const forOrg = () => {
                                 </a>
                             </div>
                             <div className=" flex flex-row p-5">
-                                <a href="#" className="group flex h-[70%] w-full border-b-2 border-dotted border-gray/30 ">
+                                <a href="/RFEM" className="group flex h-[110%] w-full border-b-2 border-dotted border-gray/30">
+                                    <div className="flex w-full flex-row items-start justify-between">
+                                        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
+                                            <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
+                                        </div>
+                                        <div className="flex w-[80%] flex-col">
+                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">
+                                                Rules for Electronic and Direct Marketing
+                                            </h2>
+                                            <p className="text-black">Adequacy and the UK GDPR and law enforcement processing since we left the EU.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className=" flex flex-row p-5">
+                                <a href="#" className="group flex h-[90%] w-full border-b-2 border-dotted border-gray/30 ">
                                     <div className="flex w-full flex-row items-start justify-between">
                                         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
@@ -98,21 +112,7 @@ const forOrg = () => {
                                     </div>
                                 </a>
                             </div>
-                            <div className=" flex flex-row p-5">
-                                <a href="/RFEM" className="group flex h-[110%] w-full border-b-2 border-dotted border-gray/30">
-                                    <div className="flex w-full flex-row items-start justify-between">
-                                        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
-                                            <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
-                                        </div>
-                                        <div className="flex w-[80%] flex-col">
-                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">
-                                                Rules for Electronic and Direct Marketing
-                                            </h2>
-                                            <p className="text-black">Adequacy and the UK GDPR and law enforcement processing since we left the EU.</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
+
                             <div className=" flex flex-row  p-5">
                                 <a href="#" className="group flex w-full border-b-2 border-dotted border-gray/30">
                                     <div className="flex w-full flex-row items-start justify-between">
@@ -144,19 +144,6 @@ const forOrg = () => {
                                     </div>
                                 </a>
                             </div>
-                            {/* <div className=" flex flex-row p-5">
-                                <a href="#" className="group flex w-full border-b-2 border-dotted border-gray/30">
-                                    <div className="flex w-full flex-row items-start justify-between">
-                                        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
-                                            <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
-                                        </div>
-                                        <div className="flex w-[80%] flex-col">
-                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Intelligence services</h2>
-                                            <p className="text-black">Intelligence services principles, rights, obligations and exemptions.</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div> */}
                         </div>
 
                         {/* Second Child Div with a Single Column and 30% width */}
