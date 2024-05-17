@@ -43,7 +43,7 @@ const forOrg = () => {
                             </div>
 
                             <div className="flex flex-row p-5">
-                                <a href="#" className="group flex h-[70%] w-full border-b-2 border-dotted border-gray/30 ">
+                                <a href="/knowYourObli" className="group flex h-[70%] w-full border-b-2 border-dotted border-gray/30 ">
                                     <div className="flex w-full flex-row items-start justify-between ">
                                         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />

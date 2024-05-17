@@ -26,7 +26,7 @@ const Eservices = () => {
                 <title>Services | Data Protection Athourity</title>
             </Head>
             <section className="overflow-hidden bg-black pt-[82px] lg:pt-[106px]">
-                <section className="bg-gradient-to-r from-[#FCF1F4] to-[#EDFBF9] py-14 lg:py-[100px]">
+                <section className="bg-white py-14 lg:py-[100px]">
                     <div className="container">
                         <div className="grid grid-cols-1 gap-[30px] md:grid-cols-2 lg:grid-cols-3">
                             <div

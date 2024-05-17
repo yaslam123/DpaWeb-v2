@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Footer = () => {
     return (
-        <footer className="mt-auto bg-white dark:bg-transparent dark:bg-gradient-to-b dark:from-white/[0.03] dark:to-transparent">
+        <footer className="mt-auto border-[] border-t-black bg-transparent dark:bg-transparent dark:bg-gradient-to-b dark:from-white/[0.03] dark:to-transparent">
             <div className="container">
                 <div className="grid gap-y-10 gap-x-4 py-14 sm:grid-cols-3 lg:grid-cols-5 lg:py-[100px]">
                     <div className="relative">

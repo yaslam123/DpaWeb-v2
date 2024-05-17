@@ -819,7 +819,7 @@ const Aboutus = () => {
                     <div className="absolute -inset-x-4 bottom-0 h-12 -rotate-[2deg] bg-[#7780A1]/10 xl:bottom-3"></div>
                     <div className="absolute top-1/2 z-[1] -translate-y-1/2 ltr:left-5 ltr:pr-5 rtl:right-5 rtl:pl-5 ltr:lg:left-[10%] rtl:lg:right-[10%] xl:w-[620px]">
                         <p className="pb-8 text-2xl font-extrabold text-white sm:text-4xl sm:leading-[50px]">
-                            Find out everything you need to know about Data <span className="text-primary">Protection</span> Authority.
+                            Find out everything you need to know about Data Protection Authority.
                         </p>
                         <button
                             type="button"
@@ -877,7 +877,7 @@ const Aboutus = () => {
                     </div>
                 </div>
             </Modal>
-            <section className="py-12 dark:bg-gray-dark lg:py-20">
+            <section className="bg-white py-12 lg:py-20">
                 <div className="container">
                     <h3 className="mt-7 text-center text-3xl font-extrabold text-black dark:text-white md:text-[50px] md:leading-[70px] ltr:md:text-left rtl:md:text-right">
                         Our Principles

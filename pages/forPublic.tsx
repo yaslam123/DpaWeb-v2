@@ -19,7 +19,7 @@ const forPublic = () => {
     const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
     return (
         <section className="overflow-hidden bg-black pt-[82px] lg:pt-[106px]">
-            <div className=" bg-gradient-to-b to-transparent dark:bg-none">
+            <div className=" bg-white">
                 <section className="relative">
                     <div className="h-[20px] w-full bg-transparent md:h-[30px] lg:h-[30px]"></div>
                 </section>
@@ -35,7 +35,7 @@ const forPublic = () => {
                         <div className="container">
                             <div className="mt-12 flex flex-col items-center lg:flex-row" data-aos="fade-up" data-aos-duration="1000">
                                 <div className="relative w-full flex-none lg:max-w-[555px]">
-                                    <img src="/assets/images/gallery1.jpg" className="h-full w-full object-cover" alt="" />
+                                    <img src="/assets/images/IMG-4.jpg" className="h-full w-full object-cover" alt="" />
                                     <span className="absolute inset-0 bg-black/30"></span>
                                     <button
                                         type="button"
@@ -75,7 +75,7 @@ const forPublic = () => {
                                 <div className="aspect-video">
                                     <iframe
                                         className="absolute top-0 left-0 h-full w-full"
-                                        src="https://www.youtube.com/embed/D0UnqGm_miA"
+                                        src="https://www.youtube.com/embed/Zqwynk2okxQ?si=Mq9z7cSRtInzmXMg"
                                         frameBorder="0"
                                         allowFullScreen
                                         allow="autoplay"

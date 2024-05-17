@@ -245,7 +245,7 @@ const Consulting = () => {
                     </div>
                 </div>
             </section>
-            <section className="bg-gradient-to-b from-white/[55%] to-transparent py-14 dark:from-white/5 lg:py-[100px]">
+            <section className="bg-white py-14 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-left">
                         <div className="heading text-left">

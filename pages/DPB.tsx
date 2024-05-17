@@ -20,17 +20,15 @@ const DPB = () => {
                         <div className="heading text-center font-normal ltr:lg:text-left rtl:lg:text-right">
                             <h4>Data Protection Basics</h4>
                             <p className="pt-12 text-lg font-semibold">
-                                This guidance note, on ‘Data Protection Basics’, aims to address some of the most common questions about data protection law and
-                                to clarify the basic principles underlying data protection. This guidance covers the different laws which apply in a data
-                                protection context and when they apply, as well as the meaning of ‘personal data’ and ‘processing’, and how to identify a ‘data
-                                controller’ and what their obligations are. It aims to explain the requirement for a ‘legal basis’ to justify the processing of
-                                personal data, and outline the rights which individual ‘data subjects’ have and how they can exercise them. It also sets out the
-                                basics of the rules around electronic direct marketing as well as the use of cookies and other similar technologies. This
-                                guidance should assist both data subjects, as well as data controllers, particularly where read in advance of submitting a
-                                request to a data controller or a query to the DPC.
+                                Data Protection: The Basics" is a comprehensive guide aimed at demystifying the essentials of data protection. It covers a range
+                                of topics including applicable laws, definitions of key terms such as 'personal data' and 'processing,' identification of data
+                                controllers, and their corresponding obligations. The guide also clarifies the necessity of a 'legal basis' for processing
+                                personal data, outlines the rights of data subjects, and offers insights into electronic direct marketing regulations and the
+                                use of cookies and similar technologies. Whether you're a data subject or a data controller, this guide serves as a valuable
+                                resource to understand the foundational principles of data protection.
                             </p>
                         </div>
-                        <a className="font-bold text-primary" download href="/assets/legal/data protection basics .pdf">
+                        <a className="font-bold text-primary" href="/assets/legal/data protection basics.pdf">
                             {' '}
                             <em>Data Protection Basics: Full Guidance Note</em>{' '}
                         </a>
