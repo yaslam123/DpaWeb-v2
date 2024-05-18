@@ -20,7 +20,7 @@ const DPB = () => {
                         <div className="heading text-center font-normal ltr:lg:text-left rtl:lg:text-right">
                             <h4>Data Protection Basics</h4>
                             <p className="pt-12 text-lg font-semibold">
-                                Data Protection: Basics" is a comprehensive guide aimed at demystifying the essentials of data protection. It covers a range of
+                                Data Protection Basics: is a comprehensive guide aimed at demystifying the essentials of data protection. It covers a range of
                                 topics including applicable laws, definitions of key terms such as 'personal data' and 'processing,' identification of data
                                 controllers, and their corresponding obligations. The guide also clarifies the necessity of a 'legal basis' for processing
                                 personal data, outlines the rights of data subjects, and offers insights into electronic direct marketing regulations and the
