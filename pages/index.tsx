@@ -249,7 +249,7 @@ const Consulting = () => {
                 <div className="container">
                     <div className="heading text-left">
                         <div className="heading text-left">
-                            <h4 className=" inline-block border-b-2 text-3xl font-bold text-black">How We Can Help</h4>
+                            <h4 className=" inline-block border-b-2 text-3xl font-bold text-black">DPA Mandates</h4>
                         </div>
                     </div>
                     <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -258,7 +258,7 @@ const Consulting = () => {
                                 <div className="relative flex h-auto flex-col items-center justify-start rounded-3xl bg-black bg-[url(/assets/images/world-map.png)] bg-cover bg-top bg-no-repeat pb-8 transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
                                     <img className="h-[120px] w-auto p-2 transition-all duration-500" src="/assets/images/icons/Policy.png" alt="" />
                                     <h4 className="mt-5 mb-2 text-[24px] font-extrabold text-white transition duration-500 group-hover:text-secondary dark:text-white">
-                                        Policy
+                                        Registrations
                                     </h4>
                                     <h6 className="px-4 pt-2 text-[16px] text-white">
                                         DPA establishes a robust privacy and security framework by drafting clear policies and procedures, setting high data
@@ -272,7 +272,7 @@ const Consulting = () => {
                                 <div className="relative flex h-auto flex-col  items-center justify-start rounded-3xl bg-black bg-[url(/assets/images/world-map.png)] bg-cover bg-top bg-no-repeat pb-8 transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
                                     <img className="h-[120px] w-auto p-2 transition-all duration-500" src="/assets/images/icons/Audit.png" alt="" />
                                     <h4 className="mt-5 mb-2 text-[24px] font-extrabold text-white transition duration-500 group-hover:text-secondary dark:text-white">
-                                        Audit
+                                        Awarness
                                     </h4>
                                     <h6 className="px-4 pt-2 text-[16px] text-white">
                                         DPA conducts internal audits on Data protection Act, ISO 27001, and information security compliance to identify gaps and
@@ -300,7 +300,7 @@ const Consulting = () => {
                                 <div className="relative flex h-[380px] flex-col  items-center justify-start rounded-3xl bg-black bg-[url(/assets/images/world-map.png)] bg-cover bg-top bg-no-repeat pb-8 transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
                                     <img className="h-[120px] w-auto p-2 transition-all duration-500" src="/assets/images/icons/Due Diligence.png" alt="" />
                                     <h4 className="mt-5 mb-2 text-[24px] font-extrabold text-white transition duration-500 group-hover:text-secondary dark:text-white">
-                                        Due Diligence
+                                        Investigations and Inspections
                                     </h4>
                                     <h6 className="px-4 pt-2 text-[16px] text-white">
                                         DPA ensures organisational compliance and data security through rigorous due diligence reviews in supply chain,
@@ -314,7 +314,7 @@ const Consulting = () => {
                                 <div className="relative flex h-auto flex-col  items-center justify-start rounded-3xl bg-black bg-[url(/assets/images/world-map.png)] bg-cover bg-top bg-no-repeat pb-8 transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
                                     <img className="h-[120px] w-auto p-2 transition-all duration-500" src="/assets/images/icons/Advisory.png" alt="" />
                                     <h4 className="mt-5 mb-2 text-[24px] font-extrabold text-white transition duration-500 group-hover:text-secondary dark:text-white">
-                                        Advisory
+                                        Complain Handling
                                     </h4>
                                     <h6 className="px-4 pt-2 text-[16px] text-white">
                                         DPA offers comprehensive advisory services, including strategic planning, policy development, impact assessments, and
@@ -329,7 +329,7 @@ const Consulting = () => {
                                 <div className="relative flex h-auto flex-col  items-center justify-start rounded-3xl bg-black bg-[url(/assets/images/world-map.png)] bg-cover bg-top bg-no-repeat pb-8 transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
                                     <img className="h-[120px] w-auto p-2 transition-all duration-500" src="/assets/images/icons/Support.png" alt="" />
                                     <h4 className="mt-5 mb-2 text-[24px] font-extrabold text-white transition duration-500 group-hover:text-secondary dark:text-white">
-                                        Support
+                                        Regulations and Overseing
                                     </h4>
                                     <h6 className="px-4 pt-2 text-[16px] text-white">
                                         DPA provides essential support for Data protection Act compliance and cybersecurity through a helpline, expert

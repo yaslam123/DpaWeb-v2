@@ -76,7 +76,7 @@ const Header = (props: any) => {
                                                 : ''
                                         }
                                     >
-                                        Resources{' '}
+                                        Regulations{' '}
                                         <div className="transition duration-500 group-hover:rotate-180 ltr:ml-2 rtl:mr-2">
                                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -124,7 +124,7 @@ const Header = (props: any) => {
                                     </Link>
                                     <div className="submenu" onClick={() => toggleMenu()}>
                                         <Link href="/forPublic" className={router.pathname === '/forPublic' ? '' : ''}>
-                                            For The Public
+                                            For The Citizens
                                         </Link>
                                         <Link href="/forOrg" className={router.pathname === '/forOrg' ? '' : ''}>
                                             {' '}

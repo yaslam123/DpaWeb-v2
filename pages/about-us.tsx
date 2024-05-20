@@ -29,7 +29,7 @@ const Aboutus = () => {
                                 <h4 className="!text-white">About DPA Somalia</h4>
                             </div>
                             <div className="relative mt-6 md:mt-0" data-aos={isRtl ? 'fade-right' : 'fade-left'} data-aos-duration="1000">
-                                <svg
+                                {/* <svg
                                     width="374"
                                     height="282"
                                     viewBox="0 0 374 282"
@@ -623,7 +623,7 @@ const Aboutus = () => {
                                         d="M183.669 13.3256C183.669 12.9203 183.341 12.5918 182.936 12.5918C182.53 12.5918 182.202 12.9203 182.202 13.3256H183.669ZM182.202 25.4329C182.202 25.8381 182.53 26.1667 182.936 26.1667C183.341 26.1667 183.669 25.8381 183.669 25.4329H182.202ZM182.202 13.3256V25.4329H183.669V13.3256H182.202Z"
                                         fill="white"
                                     />
-                                </svg>
+                                </svg> */}
                             </div>
                         </div>
                     </div>
@@ -678,28 +678,8 @@ const Aboutus = () => {
                                 className="flex items-start gap-[10px] rounded-[10px] border border-transparent bg-secondary/10 py-6 px-5 transition
                             hover:border-secondary hover:bg-transparent"
                             >
-                                <span className="flex h-[50px] w-[50px] min-w-[50px] items-center justify-center rounded-full bg-secondary text-lg text-white">
-                                    01
-                                </span>
-                                <div>
-                                    <h6 className="mb-1 font-bold text-secondary">Mission</h6>
-                                    <p className="text-md text-start font-semibold text-black">
-                                        DPA’s mission is to ensure that all businesses, private entities, and public institutions govern and process personal
-                                        data in a responsible, transparent and lawful manner.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" data-aos-duration="1000">
-                            <div
-                                className="flex items-start gap-[10px] rounded-[10px] border border-transparent bg-secondary/10 py-6 px-5 transition
-                            hover:border-secondary hover:bg-transparent"
-                            >
-                                <span className="flex h-[50px] w-[50px] min-w-[50px] items-center justify-center rounded-full bg-secondary text-lg text-white">
-                                    02
-                                </span>
-                                <div>
-                                    <h6 className="mb-1 font-bold text-secondary">Vision</h6>
+                                <div className="p-2">
+                                    <h6 className="mb-5 text-[20px] font-bold text-secondary">Vision</h6>
                                     <p className="text-sm font-semibold text-black dark:text-gray">
                                         To safeguard the transparency and integrity of Somalis’ data privacy.
                                     </p>
@@ -711,11 +691,23 @@ const Aboutus = () => {
                                 className="flex items-start gap-[10px] rounded-[10px] border border-transparent bg-secondary/10 py-6 px-5 transition
                             hover:border-secondary hover:bg-transparent"
                             >
-                                <span className="flex h-[50px] w-[50px] min-w-[50px] items-center justify-center rounded-full bg-secondary text-lg text-white">
-                                    03
-                                </span>
-                                <div>
-                                    <h6 className="mb-1 font-bold text-secondary">Core Values</h6>
+                                <div className="p-2">
+                                    <h6 className="mb-5 text-[20px] font-bold text-secondary">Mission</h6>
+                                    <p className="text-md text-start font-semibold text-black">
+                                        DPA’s mission is to ensure that all businesses, private entities, and public institutions govern and process personal
+                                        data in a responsible, transparent and lawful manner.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-up" data-aos-duration="1000">
+                            <div
+                                className="flex items-start gap-[10px] rounded-[10px] border border-transparent bg-secondary/10 py-6 px-5 transition
+                            hover:border-secondary hover:bg-transparent"
+                            >
+                                <div className="p-2">
+                                    <h6 className="mb-5 text-[20px] font-bold text-secondary">Core Values</h6>
                                     <ol className="text-[15px] font-semibold text-black dark:text-gray">
                                         <li className=" mb-2"> - Transparency and Accountabiliy</li>
                                         <li className=" mb-2"> - Innovation & Adaptability</li>

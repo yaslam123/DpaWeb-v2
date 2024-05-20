@@ -34,6 +34,13 @@ const forPublic = () => {
                         <img src="/assets/images/event-concert/about-text.png" alt="" className="absolute top-12 left-1/2 -translate-x-1/2 md:top-24" />
                         <div className="container">
                             <div className="mt-12 flex flex-col items-center lg:flex-row" data-aos="fade-up" data-aos-duration="1000">
+                                <div className="flex-1 bg-white uppercase italic dark:bg-gray-dark">
+                                    <h4 className="text-2xl font-black leading-10 text-black dark:text-white">Get access to the full conference experience.</h4>
+                                    <p className="mt-2.5 text-sm font-semibold leading-8">
+                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classNameical Latin
+                                        literature fror 45 BC, making it over 2000 years old.
+                                    </p>
+                                </div>
                                 <div className="relative w-full flex-none lg:max-w-[555px]">
                                     <img src="/assets/images/IMG-4.jpg" className="h-full w-full object-cover" alt="" />
                                     <span className="absolute inset-0 bg-black/30"></span>
@@ -49,13 +56,6 @@ const forPublic = () => {
                                             />
                                         </svg>
                                     </button>
-                                </div>
-                                <div className="flex-1 bg-white p-5 uppercase italic dark:bg-gray-dark sm:p-[30px]">
-                                    <h4 className="text-2xl font-black leading-10 text-black dark:text-white">Get access to the full conference experience.</h4>
-                                    <p className="mt-2.5 text-sm font-semibold leading-8">
-                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classNameical Latin
-                                        literature fror 45 BC, making it over 2000 years old.
-                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -191,7 +191,102 @@ const forPublic = () => {
                                 <div className="border-t-[15px] border-primary bg-black/90 pt-5 pb-11 pr-5 pl-2 text-white">
                                     <h1 className="text-[1.5rem] font-bold">Advice</h1>
                                 </div>
-                                <div className="mt-5 grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-2">
+                                <div className="mt-5 flex flex-row ">
+                                    <a href="" className="flex pr-5">
+                                        <div className="items-center">
+                                            <PiIdentificationBadgeThin style={{ color: 'black', fontSize: '60px', padding: '0' }} />
+                                        </div>
+                                        <div className="pl-5 text-black">
+                                            <h1 className="mb-2 text-[1.2rem] font-bold">Spam Links</h1>
+                                            <p className="text-[.85rem] leading-[1.3rem]">
+                                                Individuals have the right to know whether their personal data is being processed, where, and for what purpose.
+                                                They can request a copy of their personal data.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div className="mt-5 flex flex-row">
+                                    <a href="" className="flex pr-5">
+                                        <div className="h-full">
+                                            <IoIosPersonAdd style={{ color: 'black', fontSize: '60px' }} />
+                                        </div>
+                                        <div className="pl-5 text-black">
+                                            <h1 className="mb-2 text-[1.2rem] font-bold">Spam Emails</h1>
+                                            <p className="text-[.85rem] leading-[1.3rem]">
+                                                Individuals can have inaccurate personal data corrected and incomplete data completed.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div className="mt-5 flex flex-row">
+                                    <a href="" className="flex pr-5">
+                                        <div className="h-full">
+                                            <MdOutlineDoneAll style={{ color: 'black', fontSize: '60px', padding: '0' }} />
+                                        </div>
+                                        <div className="pl-5 text-black">
+                                            <h1 className="mb-2 text-[1.2rem] font-bold">Spam Text</h1>
+                                            <p className="text-[.85rem] leading-[1.3rem]">
+                                                Under certain conditions, individuals can request the deletion of their personal data.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div className="mt-5 flex flex-row">
+                                    <a href="" className="flex pr-5">
+                                        <div className="h-full">
+                                            <MdOutlineMedicalInformation style={{ color: 'black', fontSize: '60px', padding: '0' }} />
+                                        </div>
+                                        <div className="pl-5 text-black">
+                                            <h1 className="mb-2 text-[1.2rem] font-bold">Nuisance Calls</h1>
+                                            <p className="pb-5 text-[.85rem] leading-[1.3rem]">
+                                                Individuals have the right to block or suppress processing of their personal data under certain conditions.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div className="mt-5 flex flex-row">
+                                    <a href="" className="flex pr-5">
+                                        <div className="h-full">
+                                            <MdOutlinePrivacyTip style={{ color: 'black', fontSize: '60px', padding: '0' }} />
+                                        </div>
+                                        <div className="pl-5 text-black">
+                                            <h1 className="mb-2 text-[1.2rem] font-bold">Right to Data Portabilityd</h1>
+                                            <p className="pb-5 text-[.85rem] leading-[1.3rem]">
+                                                Individuals can request and receive their personal data for their own purposes across different services.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div className="mt-5 flex flex-row">
+                                    <a href="" className="flex pr-5">
+                                        <div className="h-full">
+                                            <AiOutlineUsergroupDelete style={{ color: 'black', fontSize: '60px', padding: '0' }} />
+                                        </div>
+                                        <div className="pl-5 text-black">
+                                            <h1 className="mb-2 text-[1.2rem] font-bold">Right to Object</h1>
+                                            <p className="pb-5 text-[.85rem] leading-[1.3rem]">
+                                                Individuals have the right to object to the processing of their personal data for direct marketing, research, or
+                                                in a few other contexts.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div className="mt-5 flex flex-row">
+                                    <a href="" className="flex pr-5">
+                                        <div className="h-full">
+                                            <SlOrganization style={{ color: 'black', fontSize: '60px', padding: '0' }} />
+                                        </div>
+                                        <div className="pl-5 text-black">
+                                            <h1 className="mb-2 text-[1.2rem] font-bold">Rights in Relation to Automated Decision Making and Profiling</h1>
+                                            <p className="pb-5 text-[.85rem] leading-[1.3rem]">
+                                                Individuals have the right not to be subject to a decision based solely on automated processing, including
+                                                profiling, that produces legal effects concerning them or similarly significantly affects them. The Somalia data
+                                                protection act granted this right.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                {/* <div className="mt-5 grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-2">
                                     <div>
                                         <ul className="text-md pb-7 font-bold">
                                             <li className="mb-10 flex items-center justify-between border-b-2 border-dotted border-gray/10 bg-transparent transition hover:scale-105">
@@ -378,7 +473,7 @@ const forPublic = () => {
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
