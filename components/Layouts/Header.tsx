@@ -133,37 +133,23 @@ const Header = (props: any) => {
                                     </div>
                                 </li>
                                 <li>
+                                    <Link href="/media" className={router.pathname === '/media' ? 'active' : ''}>
+                                        News & Media
+                                    </Link>
+                                </li>
+                                <li>
                                     <Link href="/about-us" className={router.pathname === '/about-us' ? 'active' : ''}>
                                         About Us
                                     </Link>
                                 </li>
 
-                                <li className="relative items-center before:absolute before:top-1/2 before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-gray/30 ltr:before:-left-[5px] rtl:pr-9 rtl:before:-right-[2px] lg:inline-flex"></li>
-
-                                <li className="group relative" onClick={(e) => e.stopPropagation()}>
-                                    <Link href="#" className={router.pathname === '/' || router.pathname === '/' ? '' : ''}>
-                                        Languages
-                                        <div className="transition duration-500 group-hover:rotate-180 rtl:mr-2">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M19 9L12 15L10.25 13.5M5 9L7.33333 11"
-                                                    stroke="currentColor"
-                                                    strokeWidth="1.5"
-                                                    strokeLinecap="round"
-                                                    strokeLinejoin="round"
-                                                />
-                                            </svg>
-                                        </div>
+                                <li className="relative items-center before:absolute before:top-1/2 before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-gray/30 ltr:before:-left-[5px] rtl:pr-9 rtl:before:-right-[2px] lg:inline-flex">
+                                    {' '}
+                                </li>
+                                <li>
+                                    <Link href="/about-us" className={router.pathname === '/about-us' ? 'active' : ''}>
+                                        Somali
                                     </Link>
-                                    <div className="submenu" onClick={() => toggleMenu()}>
-                                        <Link href="#" className={router.pathname === '#' ? '' : ''}>
-                                            Somali
-                                        </Link>
-                                        <Link href="#" className={router.pathname === '#' ? '' : ''}>
-                                            {' '}
-                                            English &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{' '}
-                                        </Link>
-                                    </div>
                                 </li>
 
                                 <li
