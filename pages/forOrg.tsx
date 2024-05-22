@@ -65,21 +65,25 @@ const forOrg = () => {
                                         <div className="flex w-[80%] flex-col">
                                             <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Direct Marketing</h2>
                                             <p className="text-justify text-black">
-                                                Adequacy and the UK GDPR and law enforcement processing since we left the EU.
+                                                When a data controller is involved in processing activities that are likely to result in high risk to the rights
+                                                and freedoms of individuals due to the nature,
                                             </p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                             <div className=" flex flex-row p-5">
-                                <a href="#" className="group flex h-[110%] w-full border-b-2 border-dotted border-gray/30 ">
+                                <a href="/codeOfCondect" className="group flex h-[110%] w-full border-b-2 border-dotted border-gray/30 ">
                                     <div className="flex w-full flex-row items-start justify-between">
                                         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
                                         </div>
                                         <div className="flex w-[80%] flex-col">
                                             <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Codes of Conduct</h2>
-                                            <p className="text-justify text-black">Environmental information, spatial information and re-use of information.</p>
+                                            <p className="text-justify text-black">
+                                                {' '}
+                                                This Code of Conduct provides guidelines for Data Controllers and Data Processors to ensure the protection
+                                            </p>
                                         </div>
                                     </div>
                                 </a>
@@ -101,18 +105,18 @@ const forOrg = () => {
                                 </a>
                             </div>
                             <div className=" flex flex-row border-b-2 border-dotted border-gray/30 p-5">
-                                <a href="/DataTransfer" className="group flex w-full">
+                                <a href="/DRE" className="group flex w-full">
                                     <div className="flex w-full flex-row items-start justify-between">
                                         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
                                         </div>
                                         <div className="flex w-[80%] flex-col">
                                             <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">
-                                                DPIA & Privacy by Design and Default
+                                                Data Rights in E-Commerce & Self-Assessment Checklist
                                             </h2>
                                             <p className="text-justify text-black">
-                                                Data transfer involves the movement of data from one location to another, which could be within the same
-                                                organization or across different entities.
+                                                When a data controller is involved in processing activities that are likely to result in high risk to the
+                                                rights,
                                             </p>
                                         </div>
                                     </div>
@@ -127,31 +131,29 @@ const forOrg = () => {
                                         <div className="flex w-[80%] flex-col">
                                             <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Data Breach</h2>
                                             <p className="text-justify text-black">
-                                                Sending marketing messages, business to business marketing, electronic messaging, cookies, or providing
-                                                electronic communications services to the public.
+                                                A data breach is a security incident in which sensitive, protected, or confidential data is accessed,
                                             </p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                             <div className=" flex flex-row  p-5">
-                                <a href="#" className="group flex w-full border-b-2 border-dotted border-gray/30">
+                                <a href="/crossBorder" className="group flex w-full border-b-2 border-dotted border-gray/30">
                                     <div className="flex w-full flex-row items-start justify-between">
                                         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
                                         </div>
                                         <div className="flex w-[80%] flex-col">
-                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Cross Border Transfers</h2>
+                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Cross-Border Data Transfers</h2>
                                             <p className="text-justify text-black">
-                                                eIDAS regulations for electronic trust services offered within the UK and recognised equivalent services offered
-                                                in the EU.
+                                                Cross-border data transfers refer to the movement of personal data from one country to another.
                                             </p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                             <div className=" flex flex-row  p-5">
-                                <a href="#" className="group flex w-full border-b-2 border-dotted border-gray/30">
+                                <a href="/complainceChecklist" className="group flex w-full border-b-2 border-dotted border-gray/30">
                                     <div className="flex w-full flex-row items-start justify-between">
                                         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
@@ -159,15 +161,15 @@ const forOrg = () => {
                                         <div className="flex w-[80%] flex-col">
                                             <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Complaince Checklist</h2>
                                             <p className="text-justify text-black">
-                                                eIDAS regulations for electronic trust services offered within the UK and recognised equivalent services offered
-                                                in the EU.
+                                                When a data controller is involved in processing activities that are likely to result in high risk to the rights
+                                                and freedoms of individuals due to the nature,
                                             </p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                             <div className=" flex flex-row  p-5">
-                                <a href="#" className="group flex w-full border-b-2 border-dotted border-gray/30">
+                                <a href="/Registration&RM" className="group flex w-full border-b-2 border-dotted border-gray/30">
                                     <div className="flex w-full flex-row items-start justify-between">
                                         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
@@ -175,8 +177,7 @@ const forOrg = () => {
                                         <div className="flex w-[80%] flex-col">
                                             <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Registration & Risk Managment</h2>
                                             <p className="text-justify text-black">
-                                                eIDAS regulations for electronic trust services offered within the UK and recognised equivalent services offered
-                                                in the EU.
+                                                Data controllers of major importance must register with the Data Protection Authority.
                                             </p>
                                         </div>
                                     </div>

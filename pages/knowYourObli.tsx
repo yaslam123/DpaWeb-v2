@@ -45,7 +45,7 @@ const KYO = () => {
                         </div>
                         <div className="ml-2 mt-5 flex items-center text-[20px] font-semibold text-black/80 underline hover:text-primary">
                             <IoIosArrowForward className="" />
-                            <a href="/DPIA" className="text-blue-600 ml-2 no-underline">
+                            <a href="/DataProcessor" className="text-blue-600 ml-2 no-underline">
                                 Data Processor
                             </a>
                         </div>
