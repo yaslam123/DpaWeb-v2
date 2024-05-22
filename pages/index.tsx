@@ -261,8 +261,8 @@ const Consulting = () => {
                                         Registrations
                                     </h4>
                                     <h6 className="px-4 pt-2 text-[16px] text-white">
-                                        DPA establishes a robust privacy and security framework by drafting clear policies and procedures, setting high data
-                                        protection standards, and maintaining meticulous records to ensure compliance and safeguard sensitive information.
+                                        DPA Somalia requires all organizations processing personal data to register with the Data Protection Authority, ensuring
+                                        transparency and accountability.
                                     </h6>
                                 </div>
                             </div>
@@ -275,8 +275,8 @@ const Consulting = () => {
                                         Awarness
                                     </h4>
                                     <h6 className="px-4 pt-2 text-[16px] text-white">
-                                        DPA conducts internal audits on Data protection Act, ISO 27001, and information security compliance to identify gaps and
-                                        enhance data protection practices, ensuring organisations meet legal and best practice standards.
+                                        DPA Somalia promotes awareness about data protection laws and best practices through educational campaigns and resources
+                                        for businesses and the public.
                                     </h6>
                                 </div>
                             </div>
@@ -289,8 +289,8 @@ const Consulting = () => {
                                         Training
                                     </h4>
                                     <h6 className="px-4 pt-2 text-[16px] text-white">
-                                        DPA enhances organisational compliance and data protection awareness through tailored onsite training and continuous
-                                        awareness programs, delivered by DPA and data security experts to meet specific needs.
+                                        DPA Somalia provides training programs to enhance the understanding of data protection principles and legal requirements
+                                        among data protection officers and employees.
                                     </h6>
                                 </div>
                             </div>
@@ -303,8 +303,8 @@ const Consulting = () => {
                                         Investigations and Inspections
                                     </h4>
                                     <h6 className="px-4 pt-2 text-[16px] text-white">
-                                        DPA ensures organisational compliance and data security through rigorous due diligence reviews in supply chain,
-                                        technology, procurement, and M&A activities, emphasising robust data protection practices and risk mitigation.
+                                        DPA Somalia has the authority to conduct investigations and inspections to ensure compliance with data protection laws,
+                                        safeguarding individuals' privacy rights.
                                     </h6>
                                 </div>
                             </div>
@@ -317,9 +317,8 @@ const Consulting = () => {
                                         Complain Handling
                                     </h4>
                                     <h6 className="px-4 pt-2 text-[16px] text-white">
-                                        DPA offers comprehensive advisory services, including strategic planning, policy development, impact assessments, and
-                                        risk management, to guide organisations in establishing robust governance and ensuring compliance with data protection
-                                        laws.
+                                        DPA Somalia ensures organizations adhere to data protection laws by reviewing compliance reports, conducting audits, and
+                                        implementing corrective measures.
                                     </h6>
                                 </div>
                             </div>
@@ -332,9 +331,8 @@ const Consulting = () => {
                                         Regulations and Overseing
                                     </h4>
                                     <h6 className="px-4 pt-2 text-[16px] text-white">
-                                        DPA provides essential support for Data protection Act compliance and cybersecurity through a helpline, expert
-                                        management services, and DPO-as-a-Service, helping organisations safeguard sensitive data and navigate regulatory
-                                        complexities.
+                                        DPA Somalia establishes guidelines and monitors adherence to data protection laws, taking enforcement actions to ensure
+                                        responsible and secure data handling.
                                     </h6>
                                 </div>
                             </div>

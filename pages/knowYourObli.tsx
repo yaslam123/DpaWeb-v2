@@ -46,19 +46,19 @@ const KYO = () => {
                         <div className="ml-2 mt-5 flex items-center text-[20px] font-semibold text-black/80 underline hover:text-primary">
                             <IoIosArrowForward className="" />
                             <a href="/DPIA" className="text-blue-600 ml-2 no-underline">
-                                Data Protection Impact Assessments
+                                Data Processor
+                            </a>
+                        </div>
+                        <div className="mt-5 ml-2 flex items-center text-[20px] font-semibold text-black/80 underline hover:text-primary">
+                            <IoIosArrowForward className="" />
+                            <a href="/DataController" className="text-blue-600 ml-2 no-underline">
+                                Data Controller
                             </a>
                         </div>
                         <div className="ml-2 mt-5 flex items-center text-[20px] font-semibold text-black/80 underline hover:text-primary">
                             <IoIosArrowForward className="" />
                             <a href="/DPO" className="text-blue-600 ml-2 no-underline">
                                 Data Protection Officers
-                            </a>
-                        </div>
-                        <div className="mt-5 ml-2 flex items-center text-[20px] font-semibold text-black/80 underline hover:text-primary">
-                            <IoIosArrowForward className="" />
-                            <a href="/DCR" className="text-blue-600 ml-2 no-underline">
-                                Controller and Processor relationships
                             </a>
                         </div>
                     </div>

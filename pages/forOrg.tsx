@@ -24,7 +24,7 @@ const forOrg = () => {
                     </div>
                     <div className="flex flex-col border-t-2 border-dotted border-gray/10 lg:flex-row" data-aos="fade-up" data-aos-duration="1000">
                         {/* First Child Div with Responsive Grid and 70% width */}
-                        <div className="grid w-full grid-cols-1 gap-0 md:w-[70%] md:auto-rows-auto md:grid-cols-2 lg:w-[70%] lg:grid-cols-2">
+                        <div className="mb-10 grid w-full grid-cols-1 gap-0 md:w-[70%] md:auto-rows-auto md:grid-cols-2 lg:w-[70%] lg:grid-cols-2">
                             <div className="flex flex-row p-5">
                                 <a href="/DPB" className="group flex h-[110%] w-full border-b-2 border-dotted border-gray/30">
                                     <div className="flex w-full flex-row items-start justify-between">
@@ -33,9 +33,8 @@ const forOrg = () => {
                                         </div>
                                         <div className="flex w-[80%] flex-col">
                                             <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Data Protection Basics</h2>
-                                            <p className="text-black">
-                                                Principles and requirements of the UK GDPR, codes of practice and key themes such as CCTV, artificial
-                                                intelligence, and children.
+                                            <p className="text-justify text-black">
+                                                Data Protection Basics: is a comprehensive guide aimed at demystifying the essentials of data protection.
                                             </p>
                                         </div>
                                     </div>
@@ -43,14 +42,16 @@ const forOrg = () => {
                             </div>
 
                             <div className="flex flex-row p-5">
-                                <a href="/knowYourObli" className="group flex h-[70%] w-full border-b-2 border-dotted border-gray/30 ">
+                                <a href="/knowYourObli" className="group flex h-[100%] w-full border-b-2 border-dotted border-gray/30 ">
                                     <div className="flex w-full flex-row items-start justify-between ">
                                         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
                                         </div>
                                         <div className="flex w-[80%] flex-col">
                                             <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Know Your Obligations</h2>
-                                            <p className="text-black">How to respond to FOI requests, and further information and resources.</p>
+                                            <p className="text-justify text-black">
+                                                This section contains information about the obligations placed on organisations under data protection law.
+                                            </p>
                                         </div>
                                     </div>
                                 </a>
@@ -62,36 +63,70 @@ const forOrg = () => {
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
                                         </div>
                                         <div className="flex w-[80%] flex-col">
-                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">
-                                                Rules for Electronic and Direct Marketing
-                                            </h2>
-                                            <p className="text-black">Adequacy and the UK GDPR and law enforcement processing since we left the EU.</p>
+                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Direct Marketing</h2>
+                                            <p className="text-justify text-black">
+                                                Adequacy and the UK GDPR and law enforcement processing since we left the EU.
+                                            </p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                             <div className=" flex flex-row p-5">
-                                <a href="#" className="group flex h-[90%] w-full border-b-2 border-dotted border-gray/30 ">
+                                <a href="#" className="group flex h-[110%] w-full border-b-2 border-dotted border-gray/30 ">
                                     <div className="flex w-full flex-row items-start justify-between">
                                         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
                                         </div>
                                         <div className="flex w-[80%] flex-col">
                                             <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Codes of Conduct</h2>
-                                            <p className="text-black">Environmental information, spatial information and re-use of information.</p>
+                                            <p className="text-justify text-black">Environmental information, spatial information and re-use of information.</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                             <div className=" flex flex-row border-b-2 border-dotted border-gray/30 p-5">
-                                <a href="#" className="group flex w-full">
+                                <a href="/DataTransfer" className="group flex w-full">
                                     <div className="flex w-full flex-row items-start justify-between">
                                         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
                                         </div>
                                         <div className="flex w-[80%] flex-col">
-                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">GDPR Certification</h2>
-                                            <p className="text-black">
+                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Data Transfer</h2>
+                                            <p className="text-justify text-black">
+                                                Data transfer involves the movement of data from one location to another, which could be within the same
+                                                organization or across different entities.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className=" flex flex-row border-b-2 border-dotted border-gray/30 p-5">
+                                <a href="/DataTransfer" className="group flex w-full">
+                                    <div className="flex w-full flex-row items-start justify-between">
+                                        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
+                                            <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
+                                        </div>
+                                        <div className="flex w-[80%] flex-col">
+                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">
+                                                DPIA & Privacy by Design and Default
+                                            </h2>
+                                            <p className="text-justify text-black">
+                                                Data transfer involves the movement of data from one location to another, which could be within the same
+                                                organization or across different entities.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className=" flex flex-row border-b-2 border-dotted border-gray/30 p-5">
+                                <a href="/DB" className="group flex w-full">
+                                    <div className="flex w-full flex-row items-start justify-between">
+                                        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
+                                            <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
+                                        </div>
+                                        <div className="flex w-[80%] flex-col">
+                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Data Breach</h2>
+                                            <p className="text-justify text-black">
                                                 Sending marketing messages, business to business marketing, electronic messaging, cookies, or providing
                                                 electronic communications services to the public.
                                             </p>
@@ -99,20 +134,6 @@ const forOrg = () => {
                                     </div>
                                 </a>
                             </div>
-                            <div className=" flex flex-row p-5">
-                                <a href="#" className="group flex h-[85%] w-full border-b-2 border-dotted border-gray/30">
-                                    <div className="flex w-full flex-row items-start justify-between">
-                                        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
-                                            <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
-                                        </div>
-                                        <div className="flex w-[80%] flex-col">
-                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Resources for Organisations</h2>
-                                            <p className="text-black">Processing for law enforcement purposes.</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
                             <div className=" flex flex-row  p-5">
                                 <a href="#" className="group flex w-full border-b-2 border-dotted border-gray/30">
                                     <div className="flex w-full flex-row items-start justify-between">
@@ -120,8 +141,8 @@ const forOrg = () => {
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
                                         </div>
                                         <div className="flex w-[80%] flex-col">
-                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">International Transfers</h2>
-                                            <p className="text-black">
+                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Cross Border Transfers</h2>
+                                            <p className="text-justify text-black">
                                                 eIDAS regulations for electronic trust services offered within the UK and recognised equivalent services offered
                                                 in the EU.
                                             </p>
@@ -130,22 +151,38 @@ const forOrg = () => {
                                 </a>
                             </div>
                             <div className=" flex flex-row  p-5">
-                                <a href="#" className="v group flex w-full border-b-2 border-dotted border-gray/30">
+                                <a href="#" className="group flex w-full border-b-2 border-dotted border-gray/30">
                                     <div className="flex w-full flex-row items-start justify-between">
                                         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
                                         </div>
-                                        <div className="flex w-[80%] flex-col ">
-                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Infographics</h2>
-                                            <p className="text-black">
-                                                Digital services such as online marketplaces, online search engines and cloud services.
+                                        <div className="flex w-[80%] flex-col">
+                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Complaince Checklist</h2>
+                                            <p className="text-justify text-black">
+                                                eIDAS regulations for electronic trust services offered within the UK and recognised equivalent services offered
+                                                in the EU.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className=" flex flex-row  p-5">
+                                <a href="#" className="group flex w-full border-b-2 border-dotted border-gray/30">
+                                    <div className="flex w-full flex-row items-start justify-between">
+                                        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
+                                            <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
+                                        </div>
+                                        <div className="flex w-[80%] flex-col">
+                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Registration & Risk Managment</h2>
+                                            <p className="text-justify text-black">
+                                                eIDAS regulations for electronic trust services offered within the UK and recognised equivalent services offered
+                                                in the EU.
                                             </p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                         </div>
-
                         {/* Second Child Div with a Single Column and 30% width */}
                         <div className="grid w-full grid-cols-1 gap-4 md:w-[30%] lg:w-[30%]">
                             <div

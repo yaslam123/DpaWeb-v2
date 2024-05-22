@@ -10,8 +10,17 @@ import { MdOutlineMedicalInformation } from 'react-icons/md';
 import { MdOutlinePrivacyTip } from 'react-icons/md';
 import { AiOutlineUsergroupDelete } from 'react-icons/ai';
 import { SlOrganization } from 'react-icons/sl';
-import { MdPermDeviceInformation } from 'react-icons/md';
-import { FaArrowRight } from 'react-icons/fa';
+import { PiLinkSimpleLight } from 'react-icons/pi';
+import { MdOutlineSecurityUpdateWarning } from 'react-icons/md';
+import { LuWrapText } from 'react-icons/lu';
+import { BsClipboard2Data } from 'react-icons/bs';
+import { FiPhoneCall } from 'react-icons/fi';
+import { LuMessagesSquare } from 'react-icons/lu';
+import { TbPasswordUser } from 'react-icons/tb';
+import { RiBankLine } from 'react-icons/ri';
+import { IoSchoolOutline } from 'react-icons/io5';
+import { BsPeople } from 'react-icons/bs';
+import { MdOutlineHealthAndSafety } from 'react-icons/md';
 import Modal from '../components/Modal';
 
 const forPublic = () => {
@@ -34,11 +43,14 @@ const forPublic = () => {
                         <img src="/assets/images/event-concert/about-text.png" alt="" className="absolute top-12 left-1/2 -translate-x-1/2 md:top-24" />
                         <div className="container">
                             <div className="mt-12 flex flex-col items-center lg:flex-row" data-aos="fade-up" data-aos-duration="1000">
-                                <div className="flex-1 bg-white uppercase italic dark:bg-gray-dark">
-                                    <h4 className="text-2xl font-black leading-10 text-black dark:text-white">Get access to the full conference experience.</h4>
-                                    <p className="mt-2.5 text-sm font-semibold leading-8">
-                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classNameical Latin
-                                        literature fror 45 BC, making it over 2000 years old.
+                                <div className="flex-1 bg-white uppercase dark:bg-gray-dark">
+                                    <h4 className="text-2xl font-black leading-10 text-black dark:text-white"> Know your personal data</h4>
+                                    <p className="text-md mt-2.5 pr-5 text-justify font-bold leading-8 ">
+                                        Your Name ,Your Phone Number, Your Email, Your ID Card or Passport, Your Bank Account, Your Identity. And any other
+                                        information that can identify a person. Do you know, citizen, that this is your private data? Therefore, The Government
+                                        of Somalia has enacted the Data Protection Act, signed by President Hassan Sheikh Mohamud on March 20, 2023, which
+                                        established the Data Protection Authority. <br /> The Data Protection Act, Law No. 005, mandates private institutions,
+                                        government entities, and NGOs to protect personal data.
                                     </p>
                                 </div>
                                 <div className="relative w-full flex-none lg:max-w-[555px]">
@@ -194,13 +206,13 @@ const forPublic = () => {
                                 <div className="mt-5 flex flex-row ">
                                     <a href="" className="flex pr-5">
                                         <div className="items-center">
-                                            <PiIdentificationBadgeThin style={{ color: 'black', fontSize: '60px', padding: '0' }} />
+                                            <PiLinkSimpleLight style={{ color: 'black', fontSize: '48px', padding: '0' }} />
                                         </div>
                                         <div className="pl-5 text-black">
                                             <h1 className="mb-2 text-[1.2rem] font-bold">Spam Links</h1>
                                             <p className="text-[.85rem] leading-[1.3rem]">
-                                                Individuals have the right to know whether their personal data is being processed, where, and for what purpose.
-                                                They can request a copy of their personal data.
+                                                Spam links on Facebook can lead to phishing, malware, and data breaches. Use advanced spam filters, keep
+                                                security software updated, and educate users to report suspicious links to enhance security.
                                             </p>
                                         </div>
                                     </a>
@@ -208,12 +220,13 @@ const forPublic = () => {
                                 <div className="mt-5 flex flex-row">
                                     <a href="" className="flex pr-5">
                                         <div className="h-full">
-                                            <IoIosPersonAdd style={{ color: 'black', fontSize: '60px' }} />
+                                            <MdOutlineSecurityUpdateWarning style={{ color: 'black', fontSize: '48px' }} />
                                         </div>
                                         <div className="pl-5 text-black">
-                                            <h1 className="mb-2 text-[1.2rem] font-bold">Spam Emails</h1>
+                                            <h1 className="mb-2 text-[1.2rem] font-bold">Identity theft</h1>
                                             <p className="text-[.85rem] leading-[1.3rem]">
-                                                Individuals can have inaccurate personal data corrected and incomplete data completed.
+                                                Identity theft on Facebook can lead to financial loss. Scammers might steal accounts and ask friends for money.
+                                                Use strong passwords and two-factor authentication to prevent this.
                                             </p>
                                         </div>
                                     </a>
@@ -221,12 +234,13 @@ const forPublic = () => {
                                 <div className="mt-5 flex flex-row">
                                     <a href="" className="flex pr-5">
                                         <div className="h-full">
-                                            <MdOutlineDoneAll style={{ color: 'black', fontSize: '60px', padding: '0' }} />
+                                            <LuWrapText style={{ color: 'black', fontSize: '48px', padding: '0' }} />
                                         </div>
                                         <div className="pl-5 text-black">
                                             <h1 className="mb-2 text-[1.2rem] font-bold">Spam Text</h1>
                                             <p className="text-[.85rem] leading-[1.3rem]">
-                                                Under certain conditions, individuals can request the deletion of their personal data.
+                                                Spam texts on Facebook, WhatsApp, and Messenger can lead to phishing and identity theft. Avoid clicking unknown
+                                                links, block and report suspicious contacts, and keep apps updated to stay safe.
                                             </p>
                                         </div>
                                     </a>
@@ -234,12 +248,28 @@ const forPublic = () => {
                                 <div className="mt-5 flex flex-row">
                                     <a href="" className="flex pr-5">
                                         <div className="h-full">
-                                            <MdOutlineMedicalInformation style={{ color: 'black', fontSize: '60px', padding: '0' }} />
+                                            <BsClipboard2Data style={{ color: 'black', fontSize: '48px', padding: '0' }} />
+                                        </div>
+                                        <div className="pl-5 text-black">
+                                            <h1 className="mb-2 text-[1.2rem] font-bold">Keeping Personal Information</h1>
+                                            <p className="pb-5 text-[.85rem] leading-[1.3rem]">
+                                                Always keep your bank account details, ID, and passport secret, safe, and hidden. Avoid sharing this information
+                                                online or with untrusted sources. Store physical documents securely and use strong, unique passwords for online
+                                                accounts.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div className="mt-5 flex flex-row">
+                                    <a href="" className="flex pr-5">
+                                        <div className="h-full">
+                                            <FiPhoneCall style={{ color: 'black', fontSize: '42px', padding: '0' }} />
                                         </div>
                                         <div className="pl-5 text-black">
                                             <h1 className="mb-2 text-[1.2rem] font-bold">Nuisance Calls</h1>
                                             <p className="pb-5 text-[.85rem] leading-[1.3rem]">
-                                                Individuals have the right to block or suppress processing of their personal data under certain conditions.
+                                                Keep your phone number private and avoid sharing it with untrusted sources. Use call-blocking features and apps
+                                                to filter out unwanted calls. Report nuisance calls to your service provider and authorities.
                                             </p>
                                         </div>
                                     </a>
@@ -247,12 +277,13 @@ const forPublic = () => {
                                 <div className="mt-5 flex flex-row">
                                     <a href="" className="flex pr-5">
                                         <div className="h-full">
-                                            <MdOutlinePrivacyTip style={{ color: 'black', fontSize: '60px', padding: '0' }} />
+                                            <LuMessagesSquare style={{ color: 'black', fontSize: '48px', padding: '0' }} />
                                         </div>
                                         <div className="pl-5 text-black">
-                                            <h1 className="mb-2 text-[1.2rem] font-bold">Right to Data Portabilityd</h1>
+                                            <h1 className="mb-2 text-[1.2rem] font-bold">Phishing Messages</h1>
                                             <p className="pb-5 text-[.85rem] leading-[1.3rem]">
-                                                Individuals can request and receive their personal data for their own purposes across different services.
+                                                Avoid clicking links or downloading attachments from unknown sources. Verify the sender before sharing personal
+                                                information. Use spam filters and keep your security software updated.
                                             </p>
                                         </div>
                                     </a>
@@ -260,13 +291,14 @@ const forPublic = () => {
                                 <div className="mt-5 flex flex-row">
                                     <a href="" className="flex pr-5">
                                         <div className="h-full">
-                                            <AiOutlineUsergroupDelete style={{ color: 'black', fontSize: '60px', padding: '0' }} />
+                                            <TbPasswordUser style={{ color: 'black', fontSize: '52px', padding: '0' }} />
                                         </div>
                                         <div className="pl-5 text-black">
-                                            <h1 className="mb-2 text-[1.2rem] font-bold">Right to Object</h1>
+                                            <h1 className="mb-2 text-[1.2rem] font-bold">OTP </h1>
                                             <p className="pb-5 text-[.85rem] leading-[1.3rem]">
-                                                Individuals have the right to object to the processing of their personal data for direct marketing, research, or
-                                                in a few other contexts.
+                                                Always keep your One-Time Password (OTP) private and never share it with anyone. Only enter your OTP on trusted
+                                                and secure websites. Enable two-factor authentication for added security and be cautious of unsolicited messages
+                                                requesting your OTP.
                                             </p>
                                         </div>
                                     </a>
@@ -274,18 +306,62 @@ const forPublic = () => {
                                 <div className="mt-5 flex flex-row">
                                     <a href="" className="flex pr-5">
                                         <div className="h-full">
-                                            <SlOrganization style={{ color: 'black', fontSize: '60px', padding: '0' }} />
+                                            <RiBankLine style={{ color: 'black', fontSize: '48px', padding: '0' }} />
                                         </div>
                                         <div className="pl-5 text-black">
-                                            <h1 className="mb-2 text-[1.2rem] font-bold">Rights in Relation to Automated Decision Making and Profiling</h1>
+                                            <h1 className="mb-2 text-[1.2rem] font-bold">Handling Bank Lines</h1>
                                             <p className="pb-5 text-[.85rem] leading-[1.3rem]">
-                                                Individuals have the right not to be subject to a decision based solely on automated processing, including
-                                                profiling, that produces legal effects concerning them or similarly significantly affects them. The Somalia data
-                                                protection act granted this right.
+                                                Keep your personal and financial information private. Avoid discussing sensitive details aloud. Be mindful of
+                                                your surroundings and protect your belongings. Use online banking services to minimize time spent in bank lines.
                                             </p>
                                         </div>
                                     </a>
                                 </div>
+                                <div className="mt-5 flex flex-row">
+                                    <a href="" className="flex pr-5">
+                                        <div className="h-full">
+                                            <IoSchoolOutline style={{ color: 'black', fontSize: '48px', padding: '0' }} />
+                                        </div>
+                                        <div className="pl-5 text-black">
+                                            <h1 className="mb-2 text-[1.2rem] font-bold">School ID and Certifications</h1>
+                                            <p className="pb-5 text-[.85rem] leading-[1.3rem]">
+                                                Keep your school ID and certifications safe. Avoid sharing them with untrusted sources or posting them online.
+                                                Store physical copies securely and make digital backups. Use your school ID only when necessary.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div className="mt-5 flex flex-row">
+                                    <a href="" className="flex pr-5">
+                                        <div className="h-full">
+                                            <BsPeople style={{ color: 'black', fontSize: '52px', padding: '0' }} />
+                                        </div>
+                                        <div className="pl-5 text-black">
+                                            <h1 className="mb-2 text-[1.2rem] font-bold">Public Information Security</h1>
+                                            <p className="pb-5 text-[.85rem] leading-[1.3rem]">
+                                                Protect your personal information in public settings. Avoid sharing sensitive details aloud or online. Use
+                                                secure networks, be cautious with public Wi-Fi, and always log out of public devices. Regularly update your
+                                                passwords.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div className="mt-5 flex flex-row">
+                                    <a href="" className="flex pr-5">
+                                        <div className="h-full">
+                                            <MdOutlineHealthAndSafety style={{ color: 'black', fontSize: '52px', padding: '0' }} />
+                                        </div>
+                                        <div className="pl-5 text-black">
+                                            <h1 className="mb-2 text-[1.2rem] font-bold">Protecting Health Records</h1>
+                                            <p className="pb-5 text-[.85rem] leading-[1.3rem]">
+                                                Keep your health records private and secure. Avoid sharing them with untrusted sources or online. Store physical
+                                                copies safely and use secure, password-protected systems for digital records. Verify the identity of anyone
+                                                requesting your health information.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+
                                 {/* <div className="mt-5 grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-2">
                                     <div>
                                         <ul className="text-md pb-7 font-bold">
