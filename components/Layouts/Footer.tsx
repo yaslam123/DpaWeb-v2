@@ -114,7 +114,7 @@ const Footer = () => {
                         <div>
                             Copyright© {new Date().getFullYear() + ' '}
                             <Link href="/" className="text-primary transition hover:text-secondary">
-                                Data_Protection_Authoraties.
+                                Data_Protection_Authorities.
                             </Link>
                         </div>
                         <div>
